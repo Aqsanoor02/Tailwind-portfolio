@@ -12,7 +12,7 @@ function Navbar() {
               alt="Logo"
               height={80}
               width={80}
-              src={require("../../../public/Assets/Alogo.png")}
+              src="/Assets/Alogo.png"
             ></Image>
             <span className="text-teal-100 ml-3 text-xl  ">
               A Noor's Corner

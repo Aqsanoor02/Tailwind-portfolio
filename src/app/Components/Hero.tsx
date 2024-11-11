@@ -10,7 +10,8 @@ function Hero() {
           <div className="lg:max-w-96 shadow-md border-r-4 lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
               alt="image"
-              src={require("../../../public/Assets/pic.jpg")}
+             src="/Assets/pic.jpg"
+             height={300} width={300}
             ></Image>
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -38,7 +39,7 @@ function Hero() {
             </p>
             <div className="flex justify-center">
               <a target="blank" href="/Assets/Aqsa-Noor-Resume.pdf">
-                <button className="inline-flex items-center bg-black border-0 py-1 px-3 text-white text-2xl focus:outline-none hover:bg-teal-600 rounded text-base mt-4 md:mt-0">
+                <button className="inline-flex items-center bg-black border-0 py-1 px-3 text-white text-2xl focus:outline-none hover:bg-teal-600 rounded  mt-4 md:mt-0">
                   Download CV
                 </button>
               </a>

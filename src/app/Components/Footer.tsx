@@ -10,7 +10,7 @@ function Footer() {
       <footer className="text-white bg-black body-font">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-          <Image alt="image" height={40} width={40} src={require('../../../public/Assets/Alogo.png')}></Image>
+          <Image alt="image" height={40} width={40} src="/Assets/Alogo.png"></Image>
 
             <span className="ml-3 text-xl">A Noor's Corner</span>
           </a>

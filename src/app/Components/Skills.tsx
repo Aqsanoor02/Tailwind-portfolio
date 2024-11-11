@@ -9,26 +9,28 @@ function Skills() {
         <div className="flex pl-5] gap-4">
           <Image
             className="h-[40px] w-[40px] "
+            height={40} width={40}
             alt="html"
-            src={require("../../../public/Assets/html.png")}
-          ></Image>
+            src="/Assets/html.png"          ></Image>
           <h1 className=" text-xl font-bold">HTML</h1>
         </div>
         <div className="flex pl-5] gap-4">
           <Image
             className="h-[40px] w-[40px]"
+            height={40} width={40}
+
             alt="html"
-            src={require("../../../public/Assets/css.png")}
-          ></Image>
+            src="/Assets/css.png"          ></Image>
          <h1 className=" text-xl font-bold"> CSS</h1>
         </div>
         <div className="flex pl-5] gap-4">
           <Image
             alt="html"
             className="h-[40px] w-[40px]"
-            src={require("../../../public/Assets/react.png")}
-          ></Image>
-          <h1 className=" text-xl font-bold">Javascript</h1>
+            height={40} width={40}
+
+            src="/Assets/react.png"          ></Image>
+          <h1 className=" text-xl font-bold">React JS</h1>
         </div>
       </div>
 
@@ -36,25 +38,28 @@ function Skills() {
         <div className="flex pl-5] gap-4">
           <Image
             className="h-[40px] w-[40px] "
+            height={40} width={40}
+
             alt="html"
-            src={require("../../../public/Assets/hysys.png")}
-          ></Image>
+            src="/Assets/hysys.png"          ></Image>
           <h1 className=" text-xl font-bold">Aspen Hysys</h1>
         </div>
         <div className="flex pl-5] gap-4">
           <Image
             className="h-[40px] w-[40px]"
+            height={40} width={40}
+
             alt="html"
-            src={require("../../../public/Assets/plus.png")}
-          ></Image>
+            src="/Assets/plus.png"          ></Image>
          <h1 className=" text-xl font-bold"> Aspen Plus</h1>
         </div>
         <div className="flex pl-5] gap-4">
           <Image
             alt="html"
             className="h-[40px] w-[40px]"
-            src={require("../../../public/Assets/simulink.png")}
-          ></Image>
+            height={40} width={40}
+
+            src="/Assets/simulink.png"          ></Image>
           <h1 className=" text-xl font-bold">Simulink</h1>
         </div>
       </div>
