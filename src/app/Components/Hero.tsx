@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import Typewriter from "typewriter-effect";
 
 function Hero() {
   return (
@@ -18,13 +17,8 @@ function Hero() {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               I am
               <br className="hidden lg:inline-block" />
-              <Typewriter
-                options={{
-                  strings: ["Chemical Engineer", "Website Developer"],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
+              Web developer
+              
             </h1>
             <h2 className="text-black text-xl ">
               Crafting Code, Building Experiences{" "}
